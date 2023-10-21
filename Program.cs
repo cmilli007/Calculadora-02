@@ -10,18 +10,13 @@ string sair;
 
  
 
-ExibeMenu();
-
- 
-
-ExibeOpcoes();
-
- 
-
 do
 
 {
+ExibeMenu();
 
+
+ExibeOpcoes();
     resultado = ExecutaOperacao(operacao, numero1, numero2);
 
  
